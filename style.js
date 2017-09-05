@@ -7,15 +7,42 @@
 // * 추가 요구사항
 // * [a-t]로 만들 수 있는 사전식 순열에서 1,000,000번째는 무엇입니까?
 
-function sort(){
-  var arg = arguments;
-  console.log(arg.pop);
-  for(var i = 0, l = arg.length; i < l; i++){
-    console.log(arg);
-  }
-  // do{
+// ---------------------------------------------------------------------------------------------------
 
-  // }
-  // while(arg !== []);
+// 설계
+// 배열의 첫번째 값과 첫번째 값을 교환, 첫번째 값과 두번쨰 값을 교환, 첫번째 값과 세번째 값을 교환 ...
+// 사이클이 한 번 다 돌면 새로운 배열에 추가
+// 다음 사이클 실행
+// 모든 경우의 수가 box에 할당되면 얻고자 하는 번째의 수를 인덱스로 활용 한다.
+
+// ----------------------------------------------------------------------------------------------------
+
+var arr = [0,1,2,3,4,5,6,7,8,9];
+// var arr = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t'];
+var box = [];
+
+var calculator = function(arr, increase, n, k){
+    // increase의 값이 k와 같게 되면 box에 arr을 할당
+    if(increase == k){
+      // box배열에 들어가기 전 값 참조를 값 복사로 전환
+      box.push(arr.slice());
+      // console.log(arr,k);
+      return;
+    }
+
+    for(var i = increase; i < n; i++){
+      change(arr, i, increase);
+      calculator(arr, increase+1, n, k);
+      change(arr, i, increase);
+    }
+};
+// 실질적으로 배열의 순서를 변경하는 함수
+function change(arr, i, j){
+  var temp = arr[i];
+  arr[i] = arr[j];
+  arr[j] = temp;
 }
-sort(1,2,3);
+// 계산을 실행
+calculator(arr, 0, arr.length, arr.length);
+// 최종적으로  box에 있는 100만번째 요소를 출력
+console.log(box[1000000].join(''));
