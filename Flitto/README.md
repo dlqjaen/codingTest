@@ -13,7 +13,7 @@
 
 ```javascript
 var array = [];
-  
+
   // 1~1000까지 랜덤으로 배열을 생성해주는 함수
   function setData(array, number) {
     for (var i = 0; i < 1000; i++) {
@@ -40,19 +40,19 @@ var array = [];
 
   // 배열을 정렬해주는 함수
   function arraySort(array){
-    if (array.length == 0) { 
-      return []; 
-    } 
+    if (array.length == 0) {
+      return [];
+    }
       var standard = array[0];
-      var left = [], right = []; 
+      var left = [], right = [];
 
-      for (var i = 1, l = array.length; i < l; ++i) { 
-        if (array[i] < standard) { 
-          left.push(array[i]); 
-        } else { 
-          right.push(array[i]); 
-        } 
-      } 
+      for (var i = 1, l = array.length; i < l; ++i) {
+        if (array[i] < standard) {
+          left.push(array[i]);
+        } else {
+          right.push(array[i]);
+        }
+      }
     return arraySort(left).concat(standard, arraySort(right));
   }
 

@@ -1,0 +1,1 @@
+1. [SimpleArraySome](https://www.hackerrank.com/challenges/simple-array-sum/problem) | [Code](simppleArraySome.js)
