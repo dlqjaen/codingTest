@@ -10,3 +10,7 @@
 - [Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem) | [Code](MiniMaxSum.js)
 - [Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles/problem) | [Code](BirthdayCakeCandles.js)
 - [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem) | [Code](TimeConversion.js)
+
+>### Challenges
+- [Pairs](https://www.hackerrank.com/challenges/pairs/problem) | [Code](SimpleArraySome.js)
+- [Larry's Array](https://www.hackerrank.com/challenges/larrys-array/problem) | [Code](LarrysArray.js)
