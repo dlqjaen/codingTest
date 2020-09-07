@@ -12,5 +12,5 @@
 - [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem) | [Code](TimeConversion.js)
 
 >### Challenges
-- [Pairs](https://www.hackerrank.com/challenges/pairs/problem) | [Code](SimpleArraySome.js)
+- [Pairs](https://www.hackerrank.com/challenges/pairs/problem) | [Code](Pairs.js)
 - [Larry's Array](https://www.hackerrank.com/challenges/larrys-array/problem) | [Code](LarrysArray.js)
