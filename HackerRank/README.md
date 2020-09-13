@@ -14,3 +14,6 @@
 >### Challenges
 - [Pairs](https://www.hackerrank.com/challenges/pairs/problem) | [Code](Pairs.js)
 - [Larry's Array](https://www.hackerrank.com/challenges/larrys-array/problem) | [Code](LarrysArray.js)
+- [The Hurdle Race](https://www.hackerrank.com/challenges/the-hurdle-race/problem) | [Code](TheHurdleRace.js)
+- [The Bomberman Game](https://www.hackerrank.com/challenges/bomber-man/problem)
+- [The Grid Search](https://www.hackerrank.com/challenges/the-grid-search/problem) | [Code](GridSearch.js)
