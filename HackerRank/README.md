@@ -17,3 +17,6 @@
 - [The Hurdle Race](https://www.hackerrank.com/challenges/the-hurdle-race/problem) | [Code](TheHurdleRace.js)
 - [The Bomberman Game](https://www.hackerrank.com/challenges/bomber-man/problem)
 - [The Grid Search](https://www.hackerrank.com/challenges/the-grid-search/problem) | [Code](GridSearch.js)
+- [Modified Kaprekar Numbers](https://www.hackerrank.com/challenges/kaprekar-numbers/problem) | [Code](KaprekarNumbers.js)
+- [Equalize the Array](https://www.hackerrank.com/challenges/equality-in-a-array/problem) | [Code](EqualizeArray.js)
+- [Extra Long Factorials](https://www.hackerrank.com/challenges/extra-long-factorials/problem) | [Code](ExtraLongFactorials.js)
